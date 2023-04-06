@@ -1,227 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>bluene</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <!--[if lt IE 9]>
+  <head>
+    <!-- basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site metas -->
+    <title>BEJALEL</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <!-- Tweaks for older IEs-->
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen"
+    />
+    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
+    ><![endif]-->
+  </head>
+  <!-- body -->
+  <body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header>
+      <!-- header inner -->
+      <div class="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+              <div class="full">
+                <div class="center-desk">
+                  <div class="logo">
+                    <a
+                      style="
+                        color: #ffffff;
+                        font-size: 25px;
+                        text-transform: UPPERCASE;
+                      "
+                      href="index.html"
+                      >Bejalal</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+              <nav class="navigation navbar navbar-expand-md navbar-dark">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarsExample04"
+                  aria-controls="navbarsExample04"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">Services </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#work"> Our Work</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- end loader -->
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarsExample04">
-                           <ul class="navbar-nav mr-auto">
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#services">Services </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#work"> Our  Work</a>
-                              </li>
-                           </ul>
-                        </div>
-                     </nav>
-                  </div>
-               </div>
+    </header>
+    <!-- end header inner -->
+    <!-- end header -->
+    <!-- banner -->
+    <section class="banner_main">
+      <div class="container-fluid">
+        <div class="row d_flex">
+          <div class="col-md-7">
+            <div class="text-bg">
+              <div class="padding_lert">
+                <i><img src="images/btn.png" alt="#" /></i>
+                <h1>
+                  BEJALEL <br />
+                  CONSULTING SERVICES PRIVATE LIMITED
+                </h1>
+                <a href="Javascript:void(0)">Read More</a>
+              </div>
             </div>
-         </div>
-      </header>
-      <!-- end header inner -->
-      <!-- end header -->
-      <!-- banner -->
-      <section class="banner_main">
-         <div class="container-fluid">
-            <div class="row d_flex">
-               <div class="col-md-7">
-                  <div class="text-bg">
-                     <div class="padding_lert">
-                        <i><img src="images/btn.png" alt="#"/></i>
-                        <h1>A Digital Creative Agency  <br>Landing Page</h1>
-                        <a href="Javascript:void(0)">Read More</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-5 bah">
-                  <div class="bann_img">
-                     <figure><img src="images/bann_img.png" alt="#"/></figure>
-                  </div>
-               </div>
+          </div>
+          <div class="col-md-5 bah">
+            <div class="bann_img">
+              <figure><img src="images/bann_img.png" alt="#" /></figure>
             </div>
-         </div>
-      </section>
-      <!-- end banner -->
-      <!-- service -->
-      <div id="services" class="service">
-         <div class="container-fluid">
-            <div class="row d_flex">
-               <div class="col-md-5">
-                  <div class="service_img">
-                     <figure><img src="images/pc.png" alt="#"/></figure>
-                  </div>
-               </div>
-               <div class="col-md-7">
-                  <div class="titlepage">
-                     <h2>Full service digital capbilities From end to end workflow</h2>
-                     <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</span>
-                     <a class="read_more" href="Javascript:void(0)">Read More</a>
-                  </div>
-               </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </div>
-      <!-- end service -->
-      <!-- solutions -->
-      <div class="solutions">
-         <div class="container">
-            <div class="row d_flex">
-               <div class="col-md-7">
-                  <div class="titlepage">
-                     <h2>Solutions for every <br>Specific need</h2>
-                     <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</span>
-                     <a class="read_more" href="Javascript:void(0)">Read More</a>
-                  </div>
-               </div>
-               <div class="col-md-5">
-                  <div class="solutions_img">
-                     <figure><img src="images/solusan.png" alt="#"/></figure>
-                  </div>
-               </div>
+    </section>
+    <!-- end banner -->
+    <!-- service -->
+    <div id="services" class="service">
+      <div class="container-fluid">
+        <div class="row d_flex">
+          <div class="col-md-5">
+            <div class="service_img">
+              <figure><img src="images/pc.png" alt="#" /></figure>
             </div>
-         </div>
+          </div>
+          <div class="col-md-7">
+            <div class="titlepage">
+              <h2>BEJALEL CONSULTING SERVICES</h2>
+              <span
+                >BEJALEL CONSULTING SERVICES carries on the business of Software
+                publishing, consultancy, and supply [Software publishing
+                includes production, supply, and documentation of ready-made
+                (noncustomized) software, operating systems software, business &
+                other applications software, computer games software for all
+                platforms</span
+              >
+              <a class="read_more" href="Javascript:void(0)">Read More</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- end solutions -->
-      <!-- work -->
-      <div id="work" class="work">
-         <div class="container">
+    </div>
+    <!-- end service -->
+    <!-- solutions -->
+    <div class="solutions">
+      <div class="container">
+        <div class="row d_flex">
+          <div class="col-md-7">
+            <div class="titlepage">
+              <h2>Why <br />Choose Us</h2>
+              <span
+                >There are many competitors working in the same field and
+                providing services as we are going to provide. However. We are
+                always passionate about offering the highest standardsof quality
+                services. We have a talented and dedicated support team
+                providing Satisfactory support. We customize our client's
+                software based on their needs. We design and develop customized
+                projects only after thorough consultation with our
+                clients.</span
+              >
+              <a class="read_more" href="Javascript:void(0)">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="solutions_img">
+              <figure><img src="images/solusan.png" alt="#" /></figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end solutions -->
+    <!-- work -->
+    <div id="work" class="work">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="titlepage">
+              <h2>Solutions</h2>
+              <span
+                >Consultancy includes providing the best solution in the form of
+                custom software after analyzing the user's needs and problems.
+                Custom software also includes made-to-order software based on
+                orders from specific users. It also included the writing of
+                software of any kind following the directives of the users. Our
+                software is designed to meet customers' requirements and needs.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="our_work">
+              <figure><img src="images/work1.jpg" alt="#" /></figure>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="our_work">
+              <figure><img src="images/work2.jpg" alt="#" /></figure>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="our_work">
+              <figure><img src="images/work3.jpg" alt="#" /></figure>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="our_work">
+              <figure><img src="images/work4.jpg" alt="#" /></figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end work -->
+    <!--  footer -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="multipurpose">
+                <h3>
+                  Let’s <br />Talk <br />
+                  Business
+                </h3>
+              </div>
+            </div>
+            <div class="col-md-7 sm_none">
+              <div class="contac_detel">
+                <ul>
+                  <li><img src="images/call.png" alt="#" />+91 8466069440</li>
+                  <li>
+                    <a href="Javascript:void(0)">
+                      <img
+                        src="images/gmail.png"
+                        alt="#"
+                      />bharath@bejalel.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="multipurpose">
+                <p>
+                  As we are in the ITand consultancy industry we have
+                  professional engineers, a skilled workforce team including a
+                  sales and marketing team,consultants, dedicated support team
+                  to solve queries of our customers. The journey of BEJALEL
+                  CONSULTING is never-ending. But with the support of my team
+                  and clients, we are confident that the company will continue
+                  to scale milestones of excellence for years to come. In the
+                  future, we will hire more employees in our team for the future
+                  expansion of our business and that will also help to reduce
+                  the unemployment rate of our country.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-7 sm_show">
+              <div class="contac_detel">
+                <ul>
+                  <li><img src="images/call.png" alt="#" />+91 8466069440</li>
+                  <li>
+                    <a href="Javascript:void(0)">
+                      <img
+                        src="images/gmail.png"
+                        alt="#"
+                      />bharath@bejalel.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="container">
             <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>See More Our Work</h2>
-                     <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a istribution of letters, content here', making it look like readable English. Many desktop publishing packages </span>
-                  </div>
-               </div>
+              <div class="col-md-12">
+                <p>
+                  Copyright 2023 All Right Reserved By<a
+                    href="https://html.design/"
+                  >
+                    Free Html Templates @ Weber Technologies</a
+                  >
+                </p>
+              </div>
             </div>
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="our_work">
-                     <figure><img src="images/work1.jpg" alt="#"/></figure>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="our_work">
-                     <figure><img src="images/work2.jpg" alt="#"/></figure>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="our_work">
-                     <figure><img src="images/work3.jpg" alt="#"/></figure>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="our_work">
-                     <figure><img src="images/work4.jpg" alt="#"/></figure>
-                  </div>
-               </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </div>
-      <!-- end work -->
-      <!--  footer -->
-      <footer>
-         <div class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-5">
-                     <div class="multipurpose">
-                        <h3>Let’s  <br>Talk <br> Business</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-7 sm_none">
-                     <div class="contac_detel">
-                        <ul>
-                           <li><img src="images/call.png" alt="#"/>+91 1234567890</li>
-                           <li><a href="Javascript:void(0)"> <img src="images/gmail.png" alt="#"/>demo@gmail.com</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-12">
-                     <div class="multipurpose">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                     </div>
-                  </div>
-                  <div class="col-md-7 sm_show">
-                     <div class="contac_detel">
-                        <ul>
-                           <li><img src="images/call.png" alt="#"/>+91 1234567890</li>
-                           <li><a href="Javascript:void(0)"> <img src="images/gmail.png" alt="#"/>demo@gmail.com</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <p>Copyright 2020 All Right Reserved By<a href="https://html.design/"> Free Html Templates</a></p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-   </body>
+    </footer>
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
